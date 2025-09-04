@@ -20,7 +20,8 @@ The project is designed to be **clear, reproducible, and easy to review**.
 
 📁 Repository Structure
 
-DATA-SCIENCE-SALARIES/
+```
+\DATA-SCIENCE-SALARIES/
 ├── data/                        # Raw & cleaned datasets
 │   ├── ds_salaries.csv
 │   └── ds_salaries2.csv
@@ -51,6 +52,7 @@ DATA-SCIENCE-SALARIES/
 ├── summary.md                  # Full insights & visual analysis
 ├── requirements.txt            # Python dependencies
 └── README.md                   # This file
+```
 
 --- 
 
