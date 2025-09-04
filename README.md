@@ -52,9 +52,6 @@ DATA-SCIENCE-SALARIES/
 ├── requirements.txt            # Python dependencies
 └── README.md                   # This file
 
-
----
-
 ## ⚙️ Environment & Requirements
 
 ```bash
