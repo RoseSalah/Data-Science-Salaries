@@ -18,40 +18,39 @@ The project is designed to be **clear, reproducible, and easy to review**.
 
 ---
 
-## 🗂️ Repository Structure
+📁 Repository Structure
 
 DATA-SCIENCE-SALARIES/
+├── data/                        # Raw & cleaned datasets
+│   ├── ds_salaries.csv
+│   └── ds_salaries2.csv
 │
-├── data/ # Raw & cleaned datasets
-│ ├── ds_salaries.csv
-│ └── ds_salaries2.csv
+├── notebooks/                  # Jupyter notebooks
+│   ├── data.ipynb              # Cleaning, preprocessing
+│   └── visuals.ipynb           # Exploratory plots (Plotly)
 │
-├── notebooks/ # Jupyter notebooks
-│ ├── data.ipynb # Cleaning, preprocessing
-│ └── visuals.ipynb # Exploratory plots (Plotly)
+├── outputs/                    # Exported visuals
+│   ├── Average Salary by Year - LinePlot.png
+│   ├── Average Salary Distribution by Employee Residence Country - Choropleth.png
+│   ├── Distribution of Company Size - BarPlot.png
+│   ├── Distribution of Employment Type - BarPlot.png
+│   ├── Distribution of Experience Level - BarPlot.png
+│   ├── Distribution of Salaries (USD) - Histogram.png
+│   ├── Employees Distribution by Company Location - Choropleth.png
+│   ├── Employees Distribution by Employee Residence Country - Choropleth.png
+│   ├── Job Titles Distribution by Country (Top 10 Countries) - Histogram.png
+│   ├── Job Titles Word Count.png
+│   ├── Salary by Experience Level and Employment Type - BoxPlot.png
+│   ├── Salary Distribution by Company Size - BoxPlot.png
+│   ├── Salary Distribution by Employment Type - BoxPlot.png
+│   ├── Salary Distribution by Experience Level - BoxPlot.png
+│   ├── Salary Distribution by Remote Ratio - BoxPlot.png
+│   ├── Salary Distribution for Top 15 Job Titles - BoxPlot.png
+│   └── Top 15 Most Common Job Titles - BarPlot.png
 │
-├── outputs/ # Exported visuals
-│ ├── Average Salary by Year - LinePlot.png
-│ ├── Average Salary Distribution by Employee Residence Country - Choropleth.png
-│ ├── Distribution of Company Size - BarPlot.png
-│ ├── Distribution of Employment Type - BarPlot.png
-│ ├── Distribution of Experience Level - BarPlot.png
-│ ├── Distribution of Salaries (USD) - Histogram.png
-│ ├── Employees Distribution by Company Location - Choropleth.png
-│ ├── Employees Distribution by Employee Residence Country - Choropleth.png
-│ ├── Job Titles Distribution by Country (Top 10 Countries) - Histogram.png
-│ ├── Job Titles Word Count.png
-│ ├── Salary by Experience Level and Employment Type - BoxPlot.png
-│ ├── Salary Distribution by Company Size - BoxPlot.png
-│ ├── Salary Distribution by Employment Type - BoxPlot.png
-│ ├── Salary Distribution by Experience Level - BoxPlot.png
-│ ├── Salary Distribution by Remote Ratio - BoxPlot.png
-│ ├── Salary Distribution for Top 15 Job Titles - BoxPlot.png
-│ └── Top 15 Most Common Job Titles - BarPlot.png
-│
-├── summary.md # concise findings
-├── requirements.txt # dependencies
-└── README.md # this file
+├── summary.md                  # Full insights & visual analysis
+├── requirements.txt            # Python dependencies
+└── README.md                   # This file
 
 
 ---
