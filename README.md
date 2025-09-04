@@ -51,6 +51,7 @@ DATA-SCIENCE-SALARIES/
 ├── summary.md # Full visual insights and chart commentary
 ├── requirements.txt # Project dependencies
 └── README.md # This file
+
 --- 
 
 ## ⚙️ Environment & Requirements
